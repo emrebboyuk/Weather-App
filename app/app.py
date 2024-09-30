@@ -16,7 +16,7 @@ app.config['REDIS_URL'] = "redis://localhost:6379/0"  # Redis URL
 redis_client = FlaskRedis(app)
 
 # Cache expiration time in seconds (12 hours)
-CACHE_EXPIRATION = 180  # 3 mins
+CACHE_EXPIRATION = 180  # 3 min's
 
 @app.route("/")
 def index():
